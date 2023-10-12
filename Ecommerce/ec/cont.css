@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: #212121;
+}
+.head,h2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 35px;
+    padding: 80px 0 0 0 ;
+    text-shadow: 1px 3px 1px white;
+}
+
+.contact{
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+
+   
+}
+.contact form input ,form textarea{
+    border: none;
+    outline: none;
+    background-color: #12141c;
+    width: 100%;
+    padding: 20px;
+    color:#FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+.contact textarea{
+  resize: none;
+}
+.btn input{
+    background-color: white;
+    color: orange;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+}
+footer .hd{
+    color:#800000;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+footer h3{
+    font-size:25px;
+     margin-bottom: 10px;
+}
+footer p{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 8px;
+}
+footer .col1{
+    padding: 100px;
+}
+footer .col1 h5 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+ footer .col1 a{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+       
+}
+footer a{
+    background-color: transparent;
+    text-decoration: none;
+    line-height: 1.8;
+    font-size: 20px;
+    color: black ;
+    display: flex;
+    flex-direction: column;
+}
+footer .col1 a:hover{
+    color: red;
+}
+    
+
